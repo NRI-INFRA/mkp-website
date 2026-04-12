@@ -336,63 +336,46 @@ export default function Home() {
         <div className="mkp-container">
           <div className="reveal" style={{ textAlign: "center" }}>
             <span className="section-label" style={{ justifyContent: "center" }}>
-              Our Portfolio
+              Future Projects
             </span>
-            <h2 className="section-title">Delivering Impact at Scale</h2>
+            <h2 className="section-title">Scaling the Future</h2>
             <p className="section-subtitle" style={{ margin: "0 auto" }}>
-              Proven execution across utility-scale, C&amp;I, and distributed energy projects.
+              Active pipeline featuring 1 GW+ of utility-scale and C&I renewable energy projects.
             </p>
           </div>
           <div className="projects-grid">
             <div className="project-card reveal">
               <div className="project-thumb">
                 <Image 
-                  src="/images/projects/rajasthan_solar.png" 
-                  alt="Rajasthan Solar Park" 
+                  src="/images/projects/karnataka_solar_acres.png" 
+                  alt="Mincheri Solar Park" 
                   fill 
                   className="project-image"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
-                <span className="capacity-badge">50 MW</span>
+                <span className="capacity-badge">30 MW</span>
               </div>
               <div className="project-info">
                 <p className="project-type">Utility-Scale Solar</p>
-                <h3>Rajasthan Solar Park</h3>
-                <p>Ground-mount PV with single-axis trackers. Powering 30,000+ homes annually.</p>
+                <h3>Mincheri Solar Park</h3>
+                <p>125-acre solar development in Bellary, Karnataka. Scaling future energy horizons.</p>
               </div>
             </div>
             <div className="project-card reveal" style={{ transitionDelay: "0.08s" }}>
               <div className="project-thumb">
                 <Image 
-                  src="/images/projects/maharashtra_hybrid.png" 
-                  alt="Maharashtra Industrial Complex" 
+                  src="/images/projects/ap_hybrid.png" 
+                  alt="Satya Sai RE Hub" 
                   fill 
                   className="project-image"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
-                <span className="capacity-badge">20 MW / 40 MWh</span>
+                <span className="capacity-badge">150 MW</span>
               </div>
               <div className="project-info">
-                <p className="project-type">Hybrid + Storage</p>
-                <h3>Maharashtra Industrial Complex</h3>
-                <p>Solar + BESS for a major manufacturing facility. 24/7 RE supply, zero diesel.</p>
-              </div>
-            </div>
-            <div className="project-card reveal" style={{ transitionDelay: "0.16s" }}>
-              <div className="project-thumb">
-                <Image 
-                  src="/images/projects/karnataka_biogas.png" 
-                  alt="Karnataka Biogas Cluster" 
-                  fill 
-                  className="project-image"
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                />
-                <span className="capacity-badge">5 MW</span>
-              </div>
-              <div className="project-info">
-                <p className="project-type">Bioenergy</p>
-                <h3>Karnataka Biogas Cluster</h3>
-                <p>Agricultural waste-to-energy plant generating CBG and grid-quality power.</p>
+                <p className="project-type">Wind + Solar Hybrid</p>
+                <h3>Satya Sai RE Hub</h3>
+                <p>Integrated renewable energy development in Andhra Pradesh's wind-solar corridors.</p>
               </div>
             </div>
           </div>

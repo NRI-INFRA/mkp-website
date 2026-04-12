@@ -205,7 +205,7 @@ export default function SolutionsPage() {
             <p className="section-subtitle">Tell us your load profile and we&apos;ll design the optimal solution within 48 hours.</p>
             <div className="cta-actions">
               <Link href="/contact" className="btn-primary">Request a Consultation</Link>
-              <Link href="/projects" className="btn-secondary">View Projects</Link>
+              <Link href="/upcoming-projects" className="btn-secondary">View Upcoming Projects</Link>
             </div>
           </div>
         </div>
