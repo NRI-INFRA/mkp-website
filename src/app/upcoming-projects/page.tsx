@@ -10,12 +10,24 @@ const projects = [
     name: "Mincheri Solar Park",
     capacity: "30 MW",
     state: "Karnataka",
-    year: "2025",
+    year: "2026",
     desc: "A landmark solar development project spanning 125 acres of high-yield terrain in Bellary. Engineering for maximum grid stability and efficiency.",
     image: "/images/projects/karnataka_solar_acres.png",
     cat: "Solar",
     gradient: "linear-gradient(135deg, #0d1a0d, #001a10)",
     impact: "45,000 tCO₂/yr avoided",
+  },
+  {
+    type: "Solar Energy Park",
+    name: "Hagaribommanahalli Green Energy",
+    capacity: "7 MW",
+    state: "Karnataka",
+    year: "2026",
+    desc: "A precision-engineered 30-acre solar development near Hagaribommanahalli. Designed for high-density power yield and seamless grid integration.",
+    image: "/images/projects/hagaribommanahalli_solar.png",
+    cat: "Solar",
+    gradient: "linear-gradient(135deg, #0d1a10, #052010)",
+    impact: "10,500 tCO₂/yr avoided",
   },
   {
     type: "Wind + Solar Hybrid",
@@ -81,9 +93,9 @@ export default function ProjectsPage() {
         <div className="mkp-container">
           <div className="upcoming-list">
             {visible.map((p, i) => (
-              <div 
-                className={`landscape-card reveal ${i % 2 !== 0 ? "reversed" : ""}`} 
-                key={p.name} 
+              <div
+                className={`landscape-card reveal ${i % 2 !== 0 ? "reversed" : ""}`}
+                key={p.name}
                 style={{ transitionDelay: `${i * 0.1}s` }}
               >
                 <div className="project-thumb">

@@ -364,6 +364,23 @@ export default function Home() {
             <div className="project-card reveal" style={{ transitionDelay: "0.08s" }}>
               <div className="project-thumb">
                 <Image 
+                  src="/images/projects/hagaribommanahalli_solar.png" 
+                  alt="Hagaribommanahalli Green Energy" 
+                  fill 
+                  className="project-image"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+                <span className="capacity-badge">7 MW</span>
+              </div>
+              <div className="project-info">
+                <p className="project-type">Solar Energy Park</p>
+                <h3>Hagaribommanahalli Green Energy</h3>
+                <p>30-acre high-yield solar development in Karnataka, engineering for precision grid stability.</p>
+              </div>
+            </div>
+            <div className="project-card reveal" style={{ transitionDelay: "0.16s" }}>
+              <div className="project-thumb">
+                <Image 
                   src="/images/projects/ap_hybrid.png" 
                   alt="Satya Sai RE Hub" 
                   fill 
