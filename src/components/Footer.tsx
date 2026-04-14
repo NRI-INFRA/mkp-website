@@ -63,8 +63,10 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Connect</h4>
             <Link href="/contact" style={{ color: "var(--green-primary)", fontWeight: 600 }}>+91 99721 41144</Link>
-            <a href="mailto:nriinfratechblr@gmail.com">Institutional Sales</a>
-            <Link href="/contact">Bangalore HQ</Link>
+            <a href="mailto:nriinfratechblr@gmail.com">nriinfratechblr@gmail.com</a>
+            <Link href="/contact" style={{ fontSize: "0.8rem", lineHeight: "1.5", color: "var(--text-secondary)" }}>
+              NRI INFRA GROUP, #102_First Floor Brigade IRV center, Nallurhalli Road, Nallurhalli, Whitefield Bangalore-560066
+            </Link>
             <Link href="/contact">24/7 Support Portal</Link>
           </div>
         </div>
