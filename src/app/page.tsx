@@ -5,6 +5,7 @@ import { BackgroundPaths } from "@/components/ui/background-paths";
 import Link from "next/link";
 import Image from "next/image";
 
+
 /* ── SVG Icon Components ── */
 const SolarIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -392,7 +393,7 @@ export default function Home() {
               <div className="project-info">
                 <p className="project-type">Wind + Solar Hybrid</p>
                 <h3>Satya Sai RE Hub</h3>
-                <p>Integrated renewable energy development in Andhra Pradesh's wind-solar corridors.</p>
+                <p>Integrated renewable energy development in Andhra Pradesh&apos;s wind-solar corridors.</p>
               </div>
             </div>
           </div>

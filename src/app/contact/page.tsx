@@ -94,22 +94,6 @@ export default function ContactPage() {
                 </div>
               ))}
 
-              {/* Regional Offices */}
-              <div style={{ marginTop: "40px", paddingTop: "32px", borderTop: "1px solid var(--border-color)" }}>
-                <p style={{ fontSize: "0.78rem", color: "var(--text-dim)", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "16px", fontWeight: 600 }}>
-                  Regional Offices
-                </p>
-                {[
-                  { city: "Delhi NCR", addr: "DLF Cyber City, Gurugram, Haryana" },
-                  { city: "Hyderabad", addr: "HITEC City, Madhapur, Telangana" },
-                  { city: "Chennai", addr: "RMZ Millenia, Perungudi, Tamil Nadu" },
-                ].map((o) => (
-                  <div key={o.city} style={{ marginBottom: "12px" }}>
-                    <span style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: "0.85rem", color: "var(--green-primary)" }}>{o.city} — </span>
-                    <span style={{ fontSize: "0.85rem", color: "var(--text-secondary)" }}>{o.addr}</span>
-                  </div>
-                ))}
-              </div>
             </div>
 
             {/* Form */}

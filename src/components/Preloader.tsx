@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 /* ─── geometry ─────────────────────────────────────── */
 const CX = 180;
@@ -150,9 +149,9 @@ export function Preloader({ onComplete }: PreloaderProps) {
       />
 
       {/* ── corner HUD labels ── */}
-      <span style={hud("top", "left")}>MKP RENEWABLE ENERGY PVT LIMITED SYS v2.5.1</span>
-      <span style={hud("top", "right")}>© {new Date().getFullYear()}</span>
-      <span style={{ ...hud("bottom", "left"), color: "rgba(0,255,136,0.12)" }}>
+      <span className="preloader-hud" style={hud("top", "left")}>MKP RENEWABLE ENERGY PVT LIMITED SYS v2.5.1</span>
+      <span className="preloader-hud" style={hud("top", "right")}>© {new Date().getFullYear()}</span>
+      <span className="preloader-hud" style={{ ...hud("bottom", "left"), color: "rgba(0,255,136,0.12)" }}>
         SECURE BOOT // OK
       </span>
 

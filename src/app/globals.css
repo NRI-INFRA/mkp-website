@@ -1216,7 +1216,7 @@ body::before {
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1.5fr;
   gap: 60px;
   margin-bottom: 60px;
 }
@@ -1332,7 +1332,7 @@ body::before {
 
 /* ======================== RESPONSIVE ======================== */
 @media (max-width: 1200px) {
-  .footer-grid { grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; }
+  .footer-grid { grid-template-columns: 1.5fr 1fr 1.2fr; gap: 40px; }
 }
 
 @media (max-width: 1024px) {
@@ -1442,6 +1442,9 @@ body::before {
 
   /* ── page hero headings ── */
   .page-hero h1 { font-size: clamp(2rem, 8vw, 3rem); }
+
+  /* ── preloader HUD ── */
+  .preloader-hud { display: none !important; }
 }
 
 @media (max-width: 480px) {
@@ -1455,4 +1458,6 @@ body::before {
   .hero-stat-value { font-size: 2rem; }
   .contact-form-wrap { padding: 20px 16px; }
   .footer { padding: 60px 0 32px; }
+  .landscape-card .project-info { padding: 24px 20px; }
+  .landscape-card h3 { font-size: 1.25rem; }
 }

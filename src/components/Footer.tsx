@@ -46,17 +46,9 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Company</h4>
             <Link href="/about">About Us</Link>
+            <Link href="/solutions">Our Solutions</Link>
             <Link href="/upcoming-projects">Upcoming Projects</Link>
-            <Link href="/news">News & Insights</Link>
             <Link href="/contact">Contact Us</Link>
-          </div>
-
-          {/* Solutions */}
-          <div className="footer-col">
-            <h4>Solutions</h4>
-            <Link href="/solutions">Our Services</Link>
-            <Link href="/solutions">EPC Model</Link>
-            <Link href="/solutions">OPEX/PPA</Link>
           </div>
 
           {/* Connect */}
